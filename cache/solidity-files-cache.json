@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/monishwar/Desktop/jpegdegens/contracts/HelloWorld.sol": {
-      "lastModificationDate": 1672548202849,
-      "contentHash": "4b6a64cbc776e0ba686c48741322919f",
+      "lastModificationDate": 1672585788570,
+      "contentHash": "e6a044cbe8d34123904000c173ee4039",
       "sourceName": "contracts/HelloWorld.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -34,6 +34,78 @@
       ],
       "artifacts": [
         "HelloWorld"
+      ]
+    },
+    "/home/monishwar/Desktop/jpegdegens/contracts/Counter.sol": {
+      "lastModificationDate": 1672737188685,
+      "contentHash": "a9e7695efd37d2a07de110fea886a21d",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "/home/monishwar/Desktop/jpegdegens/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1672547705135,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
